@@ -19,7 +19,7 @@ a {
 }
 
 .navbar {
-    position: fixed !important;
+    position:static !important;
     left: 0;
     top: 0;
     right: 0;
@@ -35,7 +35,7 @@ a {
 }
 
 .navbar-nav li a:hover {
-    color: #228b22;
+    color: wheat;
 }
 
 .navbar .navbar-brand {
@@ -99,10 +99,65 @@ a {
     background-color: #31ab31;
 }
 
+/*------------ new lines for home--------------*/
+#linkedin-hover:hover{color: #005582;}
+#github-hover:hover{color: #6cc644;}
+#twitter-hover:hover{color: #00aced;}
+#facebook-hover:hover{color: #3b5998;}
+
+
+
+/*------------ new lines for about--------------*/
+.about{
+   display: flex;
+   justify-content: center;
+   justify-items: center;
+   justify-content: space-between;
+}
+
+.about1{
+    height: 200px;
+    width: 500px;
+    padding: 40px;
+    text-align: justify;
+}
+
+.spaces{
+    display: flex;
+   justify-content: center;
+   justify-items: center;
+   justify-content: space-between;
+   margin-top: 60px;
+}
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+
+span {
+    letter-spacing: 1px;
+    border-bottom: 2px solid var(--accent-color);
+  }
+  
+  @media (max-width: 768px) {
+    .hero h2 {
+      font-size: 32px;
+    }
+  
+    .hero p {
+      font-size: 20px;
+    }
+  }
+  /* .............stop.............*/
+  
+
+
 /* ------------------about---------------- */
 .about-section {
-    background-color: #228b22;
-    color: white;
+    /*background-color: #228b22;
+    color: white;*/
+    
+    background: radial-gradient(328px at 2.9% 15%, rgb(191, 224, 251) 0%, rgb(232, 233, 251) 25.8%, rgb(252, 239, 250) 50.8%, rgb(234, 251, 251) 77.6%, rgb(240, 251, 244) 100.7%);
 }
 
 .about-section .container h2 {
@@ -140,53 +195,30 @@ a {
     background-color: rgba(255, 255, 255, 0.75);
 }
 
-/* -------------------Service------------ */
-.title h2 {
-    position: relative;
-}
-
-.title h2::after {
-    content: "";
-    position: absolute;
-    background-color: #228b22;
-    height: 3px;
-    width: 10%;
-    bottom: 0;
-    right: 45%;
-
-}
-
-.Service-section .content i {
-    color: #228b22;
-    font-size: 40px;
-    padding: 10px 0px;
-}
-
-.Service-section .content p {
-    color: rgb(121, 119, 119);
-}
-
 /* ---------------projects--------------- */
 .projects .item-layer {
-    background-color: #228b22;
+   background: radial-gradient(328px at 2.9% 15%, rgb(191, 224, 251) 0%, 
+rgb(232, 233, 251) 25.8%, rgb(252, 239, 250) 50.8%),rgb(191, 224, 251) 0%;
     opacity: 0;
+   color: black;
     transition: opacity 250ms ease-in-out;
 }
 
 .projects .item:hover .item-layer {
-    opacity: 1;
+    opacity: 10;
+    
 }
 
 /* --------------contact------------- */
 .contact .btn-submit {
-    background-color: #228b22;
+    background-color: #72634b;
     color: white;
     font-weight: bold;
     transition: all .4s;
 }
 
 .contact .btn-submit:hover {
-    background-color: #1c7a1c;
+    background-color:rgb(70, 57, 31);
 }
 
 @media (max-width: 576px) {
