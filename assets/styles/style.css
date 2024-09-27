@@ -230,10 +230,10 @@ rgb(232, 233, 251) 25.8%, rgb(252, 239, 250) 50.8%),rgb(191, 224, 251) 0%;
         background-color: #228b224d;
         opacity: 1;
     }
-
-    .contact .contact-form {
-        width: 90% !important;
-    }
+.checkk{
+    color: whitesmoke;
+}
+    
 }
 
 
@@ -267,7 +267,7 @@ Extra small devices (phones, 600px and down)
 .about{
     display: flex;
     flex-wrap: wrap;
-    gap: 5px;
+    gap: 6px;
     height: 500px;
 }
 
@@ -304,13 +304,11 @@ Extra small devices (phones, 600px and down)
     gap: 50px;
 }
 
-}
-
 /*.....about.....*/
 .about{
     display: flex;
     flex-wrap: wrap;
-    gap: 5px;
+    gap: 6px;
     height: 500px;
 }
 
@@ -325,9 +323,6 @@ Extra small devices (phones, 600px and down)
     padding-left: 25px;
  }
  /*.....about.....*/
+}
 
- @media (max-width: 425) {
-
- 
- }
 
