@@ -312,4 +312,13 @@ text-align:left;
         text-align: center;
     }
 }
+@media (max-width: 1440px) {
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+}
+
+
 
