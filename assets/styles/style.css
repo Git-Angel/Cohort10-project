@@ -297,6 +297,9 @@ Extra small devices (phones, 600px and down)
 text-align:left;
 
 }
+.algn{
+    text-align: center;
+}
 }
 
 @media (max-width: 375px) {
