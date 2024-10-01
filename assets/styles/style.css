@@ -225,6 +225,14 @@ rgb(232, 233, 251) 25.8%, rgb(252, 239, 250) 50.8%),rgb(191, 224, 251) 0%;
     background-color:rgb(70, 57, 31);
 }
 
+.contact{
+    background-image: url(assets/images/imgg.jpg); 
+    background-repeat: no-repeat;
+    width: 100%;  
+    background-position: center;
+    background-size:cover; 
+}
+
 @media (max-width: 576px) {
     .projects .item-layer {
         background-color: #228b224d;
@@ -286,7 +294,6 @@ Extra small devices (phones, 600px and down)
     background-image: none !important
    }
 .Pie{
-    color: rgb(190, 225, 11) !important;
 text-align:left;
 
 }
@@ -295,6 +302,9 @@ text-align:left;
 @media (max-width: 375px) {
     .Contact{
         background-image: none !important;
+       }
+       .py-1{
+        font-size: 1rem;
        }
 }
 
@@ -311,6 +321,9 @@ text-align:left;
     .font{
         text-align: center;
     }
+    .py-1{
+        font-size: 1rem;
+       }
 }
 @media (max-width: 1440px) {
     .row{
