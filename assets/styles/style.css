@@ -233,6 +233,65 @@ rgb(232, 233, 251) 25.8%, rgb(252, 239, 250) 50.8%),rgb(191, 224, 251) 0%;
     background-size:cover; 
 }
 
+.rounded-pill .w-20 .m-auto .p-3 .p-md-2 .p-1-sm .w-10-sm button :hover {
+    background-color: #618562;
+}
+
+.claNam{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    justify-content: space-between;
+    padding: 5rem;
+}
+
+.ImgClas{
+    display: flex;
+    width: 80%;
+    height: 80%;
+    border: 1rem solid white; 
+    border-radius: 20px;
+}
+
+.ImgClas img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.ImgClass{
+    width: 80%;
+    height: 80%;
+    padding-left: 15rem;
+}
+
+.Imgim img{
+    width: 40rem;
+    height: 25rem;
+    border: 1rem solid white; 
+    border-radius: 20px;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    justify-items: flex-start;
+    
+    }
+   .description h1{
+        font-size: 3rem;
+        margin-bottom: 2rem;
+        text-transform: uppercase;
+        font-weight: 600;
+        
+    }
+   .description p{
+        font-size: 1.2rem;
+        text-align: justify;
+    }
+
 @media (max-width: 576px) {
     .projects .item-layer {
         background-color: #228b224d;
