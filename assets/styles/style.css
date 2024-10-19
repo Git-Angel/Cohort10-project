@@ -244,6 +244,12 @@ rgb(232, 233, 251) 25.8%, rgb(252, 239, 250) 50.8%),rgb(191, 224, 251) 0%;
     justify-content: space-between;
     padding: 5rem;
 }
+@media (max-width: 1024px){
+    .claNam{
+    flex-wrap: wrap;
+    gap: 2px;
+    }
+}
 
 .ImgClas{
     display: flex;
@@ -251,6 +257,13 @@ rgb(232, 233, 251) 25.8%, rgb(252, 239, 250) 50.8%),rgb(191, 224, 251) 0%;
     height: 80%;
     border: 1rem solid white; 
     border-radius: 20px;
+}
+
+@media (max-width: 1024px){
+    .ImgClas{
+    flex-wrap: wrap;
+    gap: 2px;
+    }
 }
 
 .ImgClas img{
@@ -263,6 +276,12 @@ rgb(232, 233, 251) 25.8%, rgb(252, 239, 250) 50.8%),rgb(191, 224, 251) 0%;
     width: 80%;
     height: 80%;
     padding-left: 15rem;
+}
+
+@media (max-width: 1024px){
+    .ImgClass{
+        padding-left: 0%;
+    }
 }
 
 .Imgim img{
@@ -279,6 +298,13 @@ rgb(232, 233, 251) 25.8%, rgb(252, 239, 250) 50.8%),rgb(191, 224, 251) 0%;
     justify-content: flex-start;
     justify-items: flex-start;
     
+    }
+
+    @media (max-width: 1024px){
+        .description{
+        flex-wrap: wrap;
+        gap: 2px;
+        }
     }
    .description h1{
         font-size: 3rem;
