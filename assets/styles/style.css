@@ -247,7 +247,7 @@ rgb(232, 233, 251) 25.8%, rgb(252, 239, 250) 50.8%),rgb(191, 224, 251) 0%;
 @media (max-width: 1024px){
     .claNam{
     flex-wrap: wrap;
-    gap: 2px;
+    
     }
 }
 
@@ -262,7 +262,6 @@ rgb(232, 233, 251) 25.8%, rgb(252, 239, 250) 50.8%),rgb(191, 224, 251) 0%;
 @media (max-width: 1024px){
     .ImgClas{
     flex-wrap: wrap;
-    gap: 2px;
     }
 }
 
@@ -303,7 +302,7 @@ rgb(232, 233, 251) 25.8%, rgb(252, 239, 250) 50.8%),rgb(191, 224, 251) 0%;
     @media (max-width: 1024px){
         .description{
         flex-wrap: wrap;
-        gap: 2px;
+        
         }
     }
    .description h1{
