@@ -199,19 +199,18 @@ a {
 }
 
 
-/* ---------------projects--------------- */
+/* ---------------projects---------------*/
 .projects .item-layer {
-   background: radial-gradient(328px at 2.9% 15%, rgb(191, 224, 251) 0%, 
-rgb(232, 233, 251) 25.8%, rgb(252, 239, 250) 50.8%),rgb(191, 224, 251) 0%;
     opacity: 0;
-   color: black;
+   color: white;
+   background-color: #228b224d;
     transition: opacity 250ms ease-in-out;
 }
 
 .projects .item:hover .item-layer {
     opacity: 10;
     
-}
+} 
 
 /* --------------contact------------- */
 .contact .btn-submit {
@@ -329,10 +328,10 @@ rgb(232, 233, 251) 25.8%, rgb(252, 239, 250) 50.8%),rgb(191, 224, 251) 0%;
     }
 
 @media (max-width: 576px) {
-    .projects .item-layer {
-        background-color: #228b224d;
+  /* .projects .item-layer .item:hover {
+     background-color: #228b224d;
         opacity: 1;
-    }
+    }*/
 .checkk{
     color: whitesmoke;
 }
