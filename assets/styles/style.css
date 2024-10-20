@@ -394,6 +394,10 @@ text-align:left;
 .algn{
     text-align: center;
 }
+.spaces{
+        flex-direction: column;
+        gap: 5px;
+    }
 }
 
 @media (max-width: 375px) {
@@ -403,6 +407,10 @@ text-align:left;
        .py-1{
         font-size: 1rem;
        }
+       .spaces{
+        flex-direction: column;
+        gap: 5px;
+    }
 }
 
 @media (max-width: 320px) {
@@ -421,6 +429,10 @@ text-align:left;
     .py-1{
         font-size: 1rem;
        }
+       .spaces{
+        flex-direction: column;
+        gap: 5px;
+    }
 }
 @media (max-width: 1440px) {
     .row{
