@@ -380,6 +380,10 @@ Extra small devices (phones, 600px and down)
     flex-wrap: wrap;
     gap: 50px;
 }
+.spaces{
+    flex-direction: column;
+    gap: 5px;
+}
 }
 
 @media (max-width: 425px) {
