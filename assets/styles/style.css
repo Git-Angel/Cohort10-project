@@ -10,7 +10,6 @@ html {
 
 body {
     font-family: 'Handlee', serif;
-    /* overflow-x: hidden; */
 }
 
 a {
@@ -26,7 +25,6 @@ a {
     z-index: 9999;
     font-size: 18px;
     background-color: black;
-   /* background-color: #72634b;*/
     font-weight: 700;
 }
 
@@ -129,37 +127,12 @@ a {
     display: flex;
    justify-content: center;
    justify-items: center;
-   /*justify-content: space-between;*/
    margin-top: 60px;
 }
-
-/*--------------------------------------------------------------
-# Hero Section
---------------------------------------------------------------*/
-
-/*span {
-    letter-spacing: 1px;
-    border-bottom: 2px solid var(--accent-color);
-  }
-  
-  @media (max-width: 768px) {
-    .hero h2 {
-      font-size: 32px;
-    }
-  
-    .hero p {
-      font-size: 20px;
-    }
-  }
-   .............stop.............*/
-  
 
 
 /* ------------------about---------------- */
 .about-section {
-    /*background-color: #228b22;
-    color: white;*/
-    
     background: radial-gradient(328px at 2.9% 15%, rgb(191, 224, 251) 0%, rgb(232, 233, 251) 25.8%, rgb(252, 239, 250) 50.8%, rgb(234, 251, 251) 77.6%, rgb(240, 251, 244) 100.7%);
 }
 
@@ -239,14 +212,13 @@ a {
 .claNam{
     display: flex;
     align-items: center;
-    gap: 4rem;
+    gap: 2rem;
     justify-content: space-between;
     padding: 5rem;
 }
 @media (max-width: 1024px){
     .claNam{
     flex-wrap: wrap;
-    gap: 1rem;
     }
 }
 
@@ -261,6 +233,7 @@ a {
 @media (max-width: 1024px){
     .ImgClas{
     flex-wrap: wrap;
+
     }
 }
 
@@ -271,10 +244,13 @@ a {
 }
 
 .ImgClass{
-    width: 80%;
-    height: 80%;
+    width: 75%;
+    height: 75%;
     padding-left: 15rem;
+    border: 1rem solid white; 
+    border-radius: 20px;
 }
+
 
 @media (max-width: 1024px){
     .ImgClass{
@@ -284,15 +260,15 @@ a {
         object-fit: fill;
 }
 .Imgim img{
-    width: 80%;
-    height: 80%;
+    width: 100%;
+    height: 100%;
     object-fit: fill;
 }
 }
 
 
 .Imgim img{
-    width: 40rem;
+   width: 40rem;
     height: 25rem;
     border: 1rem solid white; 
     border-radius: 20px;
@@ -317,7 +293,6 @@ a {
     }
    .description h1{
         font-size: 3rem;
-        margin-bottom: 2rem;
         text-transform: uppercase;
         font-weight: 600;
         
@@ -328,14 +303,13 @@ a {
     }
 
 @media (max-width: 576px) {
-  /* .projects .item-layer .item:hover {
-     background-color: #228b224d;
-        opacity: 1;
-    }*/
 .checkk{
     color: whitesmoke;
 }
-    
+.claNam{
+    padding: 1rem;
+
+}
 }
 
 
@@ -381,13 +355,22 @@ Extra small devices (phones, 600px and down)
     gap: 50px;
 }
 .Imgim img{
-    width: 80%;
-    height: 80%;
+    width: 100%;
+    height: 100%;
     object-fit: fill;
 }
 .ImgClass img{
-    width: 95%;
-    height: 95%;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+.ImgClas{
+    width: 100%;
+    height: 100%; 
+}
+.ImgClass{
+    height: 100%;
+    width: 100%;
     object-fit: fill;
 }
 
@@ -409,7 +392,29 @@ text-align:left;
         flex-direction: column;
         gap: 5px;
     }
+    .claNam{
+        padding: 1rem;
+
+    }
+    .Imgim img{
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+    }
+    .ImgClass img{
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+    }
+    .ImgClas img{
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+    }
+
 }
+
+
 
 @media (max-width: 375px) {
     .Contact{
@@ -421,6 +426,11 @@ text-align:left;
        .spaces{
         flex-direction: column;
         gap: 5px;
+    }
+    .Imgim img{
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
     }
 }
 
@@ -444,6 +454,12 @@ text-align:left;
         flex-direction: column;
         gap: 5px;
     }
+    .Imgim img{
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+    }
+    
 }
 @media (max-width: 1440px) {
     .row{
